@@ -1,0 +1,110 @@
+/*nome do arquivo: 
+Auto:Gabriella 
+Data:24/02/2025
+descricao:deste codigo*/ 
+
+  
+ 
+
+
+int numeroA = 600;
+int numeroB = 0;
+  int resultado = 0;
+float resultadoReal = 0;
+
+
+void setup()
+{
+  Serial.begin(9600);
+  resultado = map(numeroA, 0, 1023, 0, 100); 
+  Serial.println(resultado);
+  
+   resultado = constrain(resultado, 20, 80);
+  Serial.println(resultado);
+  
+  
+  
+  numeroB +=1;
+  Serial.println(numeroB);
+  
+  numeroB +=1; 
+  Serial.println(numeroB);
+  
+  numeroB +=1; 
+  Serial.println(numeroB);
+  
+  numeroB +=1; 
+  Serial.println(numeroB);
+  
+  numeroB +=1; 
+  Serial.println(numeroB);
+  
+  numeroB +=1; 
+  Serial.println(numeroB);
+  
+  numeroB +=1; 
+  Serial.println(numeroB);
+  
+  numeroB +=1; 
+  Serial.println(numeroB);
+  
+  numeroB +=1; 
+  Serial.println(numeroB);
+  
+  numeroB +=1; 
+  Serial.println(numeroB);
+  
+  numeroB -=1;
+    Serial.println(numeroB);
+  
+   numeroB -=1;
+    Serial.println(numeroB);
+  
+   numeroB -=1;
+    Serial.println(numeroB);
+  
+   numeroB -=1;
+    Serial.println(numeroB);
+  
+   numeroB -=1;
+    Serial.println(numeroB);
+  
+   numeroB -=1;
+    Serial.println(numeroB);
+  
+   numeroB -=1;
+    Serial.println(numeroB);
+  
+   numeroB -=1;
+    Serial.println(numeroB);
+  
+   numeroB -=1;
+    Serial.println(numeroB);
+  
+   numeroB -=1;
+    Serial.println(numeroB);
+
+  
+
+  //***DECLARACAO DE VARIAVEIS GLOBAIS***
+float numeroA = 10;
+float numeroB = 3;
+float resultado = 0;
+float resultadoReal = 0;
+float numero = 3
+
+; 
+  resultado = numeroA / numeroB;
+  Serial.print("A divisao de A por B eh: ");
+  Serial.println(resultado);
+
+}
+
+
+
+void loop()
+{
+ 
+}
+
+
